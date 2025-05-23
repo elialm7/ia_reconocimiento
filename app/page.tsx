@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <header className="border-b bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold text-gray-800">Reconocimiento de Dígitos con Entrenamiento Manual</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Reconocimiento de Dígitos con Entrenamiento Manual - Inteligencia Artificial II </h1>
           <p className="text-sm text-gray-600">Entrena tu propio modelo de reconocimiento de dígitos</p>
         </div>
       </header>
@@ -18,6 +18,16 @@ export default function Home() {
               Esta aplicación te permite entrenar un modelo de reconocimiento de dígitos dibujando tus propios ejemplos.
               Dibuja dígitos, etiquétalos, y entrena el modelo para ver cómo aprende a reconocerlos.
             </p>
+            <p>
+             <b>Este Proyecto fue desarrollado por alumnos de la Facultad Politecnica - 7mo semestre</b>
+            </p>
+             <ul className="list-disc pl-5 space-y-2 text-gray-600">
+              <li>Rodolfo Elias Ojeda Almada</li>
+              <li>Derlis Diaz</li>
+              <li>Allam Diaz</li>
+              <li>Victor Montiel</li>
+              <li>Claudio Portillo</li>
+            </ul>
           </div>
 
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border p-6">
